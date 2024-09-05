@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>React html</title>
+
+</head>
+<body>
+    <div id="root">
+        <h1>Hello world from HTML!!</h1><!-- replaced by the tags created in react -->
+    </div>
+
+
+    <!-- <script>
+        const heading = document.createElement('h1')
+        heading.innerHTML = "hello world from Javascript!!"
+
+        const root = document.getElementById('root')
+        root.appendChild(heading) //this heading will go as child inside the div, inspect it for any queries
+    </script> -->
+
+
+
+
+
+    <!-- This file i.e. react.development.js contains the React code which is plain JS -->
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> --> <!-- core of react -->
+    <!-- <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>--> <!-- like a bridge b/w react n browser  --> 
+    <!-- This file i.e. react-dom.development.js is useful for DOM operations or use to modify the DOM -->
+    <!-- 
+        crossorigin enables CrossOrigin Resource Sharing (CORS) for loading external JavaScript
+        files from different origin than the hosting web page. 
+        This allows the script to access resources from the server hosting the script, 
+        such as making HTTP requests or accessing data.
+    -->
+    
+        
+    <script type="module" src="./App.js"></script>
+
+</body>
+</html>
